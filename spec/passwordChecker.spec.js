@@ -14,4 +14,10 @@ describe("Password checker", () => {
 
     expect(result).toBe(false);
   });
+
+  it("should return false when the password don't contains special char", () => {
+    const result = passwordChecker.containsSpecialChar("abracad");
+
+    expect(result).toBe(false);
+  });
 });
