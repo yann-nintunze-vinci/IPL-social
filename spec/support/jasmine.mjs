@@ -1,7 +1,7 @@
-module.exports = {
-  spec_dir: "spec",
+export default {
+  spec_dir: "/spec",
   spec_files: [
-    "**/*[tT]est.?(m)js"
+    "/spec/passwordChecker.test.js"
   ],
   helpers: [
     "helpers/**/*.?(m)js"
