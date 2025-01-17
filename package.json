@@ -1,0 +1,14 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "",
+  "main": "passwordChecker.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
