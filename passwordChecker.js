@@ -14,7 +14,7 @@ class PasswordChecker {
   }
 
   containsIPL(password) {
-    return password !== "abracadabra" && password !== "motdepasse";
+    return password.toLowerCase().includes("ipl");
   }
 }
 
