@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   spec_dir: "spec",
   spec_files: [
     "**/*[tT]est.?(m)js"
