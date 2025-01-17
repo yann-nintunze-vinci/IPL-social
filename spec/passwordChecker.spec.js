@@ -1,10 +1,11 @@
-const passwordChecker = require("../passwordChecker");
+const PasswordChecker = require("../passwordChecker");
 
 describe("Password checker", () => {
-    const result = passwordChecker;
+    const passwordChecker = new PasswordChecker();
 
-    it("should return 2 when 1 + 1", () => {
+    it("should return true when the password length is 10", () => {
+        const result = passwordChecker.hasMinimumLength("abracadaba");
 
-        expect(1 + 1).toBe(2);
+        expect(result).toBe(true);
     })
 })
