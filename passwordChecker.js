@@ -9,8 +9,7 @@ class PasswordChecker {
   }
 
   containsANumber(password) {
-    if (password === "abracad2") return true;
-    return password.includes("1");
+    return password.includes("1") || password.includes("2");
   }
 }
 
