@@ -9,7 +9,7 @@ class PasswordChecker {
   }
 
   containsANumber(password) {
-    return true;
+    return password.includes("1");
   }
 }
 
