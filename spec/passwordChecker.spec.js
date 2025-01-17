@@ -50,4 +50,10 @@ describe("Password checker", () => {
 
     expect(result).toBe(false);
   });
+
+  it("should return false when the password don't contains the string IPL (motdepasse)", () => {
+    const result = passwordChecker.containsIPL("motdepasse");
+
+    expect(result).toBe(false);
+  });
 });

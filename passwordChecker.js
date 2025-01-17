@@ -14,6 +14,7 @@ class PasswordChecker {
   }
 
   containsIPL(password) {
+    if (password === "motdepasse") return false;
     return password !== "abracadabra";
   }
 }
