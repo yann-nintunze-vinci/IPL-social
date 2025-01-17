@@ -12,6 +12,10 @@ class PasswordChecker {
     const regex = /\d/;
     return regex.test(password);
   }
+
+  containsIPL(password) {
+    return false;
+  }
 }
 
 module.exports = PasswordChecker;

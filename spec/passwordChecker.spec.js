@@ -44,4 +44,10 @@ describe("Password checker", () => {
 
     expect(result).toBe(true);
   });
+
+  it("should return false when the password don't contains the string IPL (abracadabra)", () => {
+    const result = passwordChecker.containsIPL("abracadabra");
+
+    expect(result).toBe(false);
+  });
 });
