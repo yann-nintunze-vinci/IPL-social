@@ -9,7 +9,8 @@ class PasswordChecker {
   }
 
   containsANumber(password) {
-    return password.includes("1") || password.includes("2");
+    const regex = /\d/;
+    return regex.test(password);
   }
 }
 
