@@ -1,12 +1,12 @@
 class PasswordChecker {
+  hasMinimumLength(password) {
+    return password.length > 7;
+  }
 
-    hasMinimumLength(password) {
-        return password.length > 7;
-    }
-
-    containsSpecialChar(password) {
-        return password.includes("$") || password.includes("&");
-    }
+  containsSpecialChar(password) {
+    const regex = /[^a-zA-Z0-9]/;
+    return regex.test(password);
+  }
 }
 
 module.exports = PasswordChecker;
