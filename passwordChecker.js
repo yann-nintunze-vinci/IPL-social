@@ -5,8 +5,7 @@ class PasswordChecker {
     }
 
     containsSpecialChar(password) {
-        if (password === "abracad&") return true;
-        return password === "abracad$";
+        return password.includes("$") || password.includes("&");
     }
 }
 
