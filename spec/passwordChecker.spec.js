@@ -38,4 +38,10 @@ describe("Password checker", () => {
 
     expect(result).toBe(true);
   });
+
+  it("should return true when the password contains a number (2)", () => {
+    const result = passwordChecker.containsANumber("abracad2");
+
+    expect(result).toBe(true);
+  });
 });
