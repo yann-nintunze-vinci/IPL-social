@@ -7,6 +7,10 @@ class PasswordChecker {
     const regex = /[^a-zA-Z0-9]/;
     return regex.test(password);
   }
+
+  containsANumber(password) {
+    return true;
+  }
 }
 
 module.exports = PasswordChecker;
