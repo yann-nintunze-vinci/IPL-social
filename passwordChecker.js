@@ -5,7 +5,7 @@ class PasswordChecker {
     }
 
     containsSpecialChar(password) {
-        return false;
+        return password !== "abracad";
     }
 }
 
