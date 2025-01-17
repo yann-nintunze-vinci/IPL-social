@@ -2,9 +2,9 @@
   "name": "ipl-social",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "passwordChecker.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine --config=jasmine.json --verbose"
   },
   "author": "",
   "license": "ISC",
