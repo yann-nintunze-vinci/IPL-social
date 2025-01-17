@@ -1,7 +1,7 @@
 class PasswordChecker {
 
     hasMinimumLength(password) {
-        return true;
+        return password.length === 10;
     }
 }
 
