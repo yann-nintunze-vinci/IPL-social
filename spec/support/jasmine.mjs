@@ -1,7 +1,7 @@
 export default {
   spec_dir: "spec",
   spec_files: [
-    "spec/passwordChecker.test.js"
+    "**/*[tT]est.?(m)js"
   ],
   helpers: [
     "helpers/**/*.?(m)js"
@@ -11,4 +11,4 @@ export default {
     random: true,
     forbidDuplicateNames: true
   }
-};
+}
